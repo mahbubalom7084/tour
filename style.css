@@ -1,16 +1,28 @@
+*{
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
 
-/* body{
+body{
     min-height: 100vh;
-    background-image: linear-gradient(#FFFFFF, #EBDCFF);
+    background-image: linear-gradient(#FFFFFF, #ebdcff);
     margin: 0;
     padding: 0;
     
 }
-.banner-container{
-    background-color: aquamarine;
+/* .banner-container{
+
     
-    margin:100px auto 120px auto;
-}
-.banner{
-    width: 87.5%
+    
 } */
+.banner{
+    margin:100px auto 120px auto;
+    padding: 20px 30px;
+    border: 2px solid #872BFF10;
+    border-radius: 40px;
+    width: 87.5%;
+    background-image: url(./images/hero-bg.png);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
