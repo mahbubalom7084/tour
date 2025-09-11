@@ -77,7 +77,7 @@ body{
     width: 600px;
 }
 
-.service, .story{
+.service, .story, .country{
     width: 87.5%;
     margin: 0px auto 120px auto;
 }
@@ -121,5 +121,19 @@ body{
 }
 
 .story-content p{
-margin-bottom: 32px;
+margin-bottom: 32px ;
+}
+
+.country-card-container{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.country-card-container h2{
+background-color: #FFFFFF;
+padding: 40px;
+border-radius: 16px;
+font-size: 32px;
+font-weight: bold;
 }
