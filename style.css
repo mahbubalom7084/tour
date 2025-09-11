@@ -1,28 +1,61 @@
 *{
     font-family: "Plus Jakarta Sans", sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 body{
     min-height: 100vh;
     background-image: linear-gradient(#FFFFFF, #ebdcff);
-    margin: 0;
-    padding: 0;
-    
 }
-/* .banner-container{
 
-    
-    
-} */
 .banner{
     margin:100px auto 120px auto;
     padding: 20px 30px;
-    border: 2px solid #872BFF10;
+    border: 2px solid #872BFF20;
     border-radius: 40px;
     width: 87.5%;
     background-image: url(./images/hero-bg.png);
+    background-color: #FFFFFF;
     display: flex;
     justify-content: space-between;
     align-items: center;
     
+}
+
+.banner-content{
+    width: 50%;
+}
+.banner-content *{
+    margin-bottom: 20px;
+}
+.banner-content h1{
+    font-size: 65px;
+    font-weight: bold;
+}
+.banner-content p{
+    font-size: 18px;
+    font-weight: medium;
+    color: #a8a8a8;
+}
+.btn{
+    background-color: #872BFF;
+    color: #FFFFFF;
+    margin-right: 20px;
+    padding: 16px 32px;
+    border-radius: 30px;
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+.btn-white{
+    border:2px solid #872BFF;
+    border-radius: 30px;
+    padding: 16px 32px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.banner-image img{
+    width: 600px;
 }
