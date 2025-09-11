@@ -159,3 +159,14 @@ font-weight: bold;
 margin-right: 280px;
 text-align: center;
 }
+.footer{
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 100px;
+    
+}
+.footer-content p{
+    font-size: 16px;
+}
