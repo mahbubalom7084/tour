@@ -22,9 +22,11 @@ body {
   justify-content: space-between;
   align-items: center;
 }
-
+img {
+  width: 100%;
+}
 .banner-content {
-  width: 50%;
+  width: 100%;
 }
 .banner-content * {
   margin-bottom: 20px;
@@ -37,6 +39,9 @@ body {
   font-size: 18px;
   font-weight: medium;
   color: #a8a8a8;
+}
+.banner-image {
+  width: 50%;
 }
 .btn {
   background-color: #872bff;
@@ -71,10 +76,6 @@ body {
   font-size: 14px;
   font-weight: bold;
   background-color: #ffffff;
-}
-
-.banner-image img {
-  width: 600px;
 }
 
 .service,

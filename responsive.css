@@ -1,0 +1,26 @@
+/* laptop device */
+@media screen and (max-width: 1200px) {
+  .banner-content h1 {
+    font-size: 48px;
+  }
+}
+
+/* tab device */
+@media screen and (max-width: 1024px) {
+  .banner {
+    flex-direction: column-reverse;
+  }
+  .banner-image {
+    width: 100%;
+  }
+  .banner-content {
+    width: 100%;
+  }
+}
+
+/* mobile divice up to 420 */
+@media screen and (max-width: 640px) {
+      .banner-content h1 {
+    font-size: 36px;
+  }
+}
