@@ -1,11 +1,15 @@
+/* banner section start */
 /* laptop device */
 @media screen and (max-width: 1200px) {
   .banner-content h1 {
     font-size: 48px;
   }
+  .service-card {
+    padding: 80px 20px;
+  }
 }
 
-/* tab device */
+/* tablet- device */
 @media screen and (max-width: 1024px) {
   .banner {
     flex-direction: column-reverse;
@@ -16,11 +20,26 @@
   .banner-content {
     width: 100%;
   }
+  .service-card-container {
+    flex-direction: column;
+  }
+  .service-card {
+    max-width: 100%;
+  }
 }
 
 /* mobile divice up to 420 */
 @media screen and (max-width: 640px) {
-      .banner-content h1 {
+  .banner-content h1 {
     font-size: 36px;
   }
+  .heading-contant h2 {
+    font-size: 32px;
+  }
 }
+
+/* banner section End */
+
+/* service section start */
+
+/* service section end */

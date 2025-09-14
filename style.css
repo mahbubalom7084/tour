@@ -96,10 +96,11 @@ img {
   background: #ffffff;
   padding: 60px;
   text-align: center;
-  width: 300px;
+  max-width: 300px;
   border-radius: 30px;
 }
 .service-card img {
+  width: 80px;
   margin-bottom: 30px;
 }
 .service-card h2 {
