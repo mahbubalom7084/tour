@@ -35,20 +35,33 @@
     flex-direction: column;
   }
   .story-content {
-  width: 100%;
-}
-.story-images {
-  width: 100%;
-}
+    width: 100%;
+  }
+  .story-images {
+    width: 100%;
+  }
 }
 
 /* mobile divice up to 420 */
 @media screen and (max-width: 640px) {
+  .btn,
+  .btn-white {
+    padding: 12px 20px;
+  }
+  .banner-content {
+    text-align: center;
+  }
   .banner-content h1 {
     font-size: 36px;
   }
   .heading-contant h2 {
     font-size: 32px;
+  }
+  .country-card-container {
+    flex-direction: column;
+  }
+  .country-card-container h2 {
+    text-align: center;
   }
 }
 
