@@ -7,6 +7,11 @@
   .service-card {
     padding: 80px 20px;
   }
+  .story-images img {
+    height: 100%;
+    object-fit: cover;
+    border-radius: 30px;
+  }
 }
 
 /* tablet- device */
@@ -26,6 +31,15 @@
   .service-card {
     max-width: 100%;
   }
+  .story-card-container {
+    flex-direction: column;
+  }
+  .story-content {
+  width: 100%;
+}
+.story-images {
+  width: 100%;
+}
 }
 
 /* mobile divice up to 420 */

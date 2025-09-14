@@ -120,6 +120,15 @@ img {
   gap: 20px;
 }
 
+.story-content {
+  width: 60%;
+}
+.story-images {
+  width: 40%;
+}
+.story-content img {
+  width: 100px;
+}
 .story-content h2,
 .story-content img {
   margin-bottom: 20px;
