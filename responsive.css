@@ -12,6 +12,9 @@
     object-fit: cover;
     border-radius: 30px;
   }
+    .footer {
+  padding: 0px 80px;
+}
 }
 
 /* tablet- device */
@@ -44,6 +47,9 @@
   .reviews-img {
     width: 30%;
   }
+  .footer {
+  padding: 0px 60px;
+}
 }
 
 /* mobile divice up to 420 */
@@ -76,6 +82,11 @@
   .reviews-img {
     width: 30%;
   }
+.footer {
+  padding: 0px 50px;
+}
+
+
 }
 
 /* banner section End */
