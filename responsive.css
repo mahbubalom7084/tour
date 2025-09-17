@@ -41,6 +41,9 @@
   .story-images {
     width: 100%;
   }
+  .reviews-img {
+    width: 30%;
+  }
 }
 
 /* mobile divice up to 420 */
@@ -63,6 +66,15 @@
   }
   .country-card-container h2 {
     text-align: center;
+  }
+  .name-position {
+    text-align: start;
+  }
+  .reviwes-content {
+    font-size: 14px;
+  }
+  .reviews-img {
+    width: 30%;
   }
 }
 

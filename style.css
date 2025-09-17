@@ -159,17 +159,18 @@ img {
 .reviwes-content,
 .discribe {
   font-size: 16px;
-  text-align: center;
   margin-bottom: 30px;
 }
 .identity-reviwes {
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: space-between;
 }
 .name-position {
-  margin-right: 280px;
   text-align: center;
+}
+.reviews-img{
+  width: 20%;
 }
 .footer {
   background-color: #ffffff;
